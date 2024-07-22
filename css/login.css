@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(234, 234, 241);
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+}
+
+.SingFrm{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form{
+    background-color: transparent;
+    width: 400px;
+    border-radius: 10px;
+    padding: 90px 40px;
+    box-shadow: 0 10px 25px rgba(22, 24, 26, 0.2);
+
+}
+
+.inputContainer{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    height: 45px;
+    width: 90%;
+    
+}
+
+

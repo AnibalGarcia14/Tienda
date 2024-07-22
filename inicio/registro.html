@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate en DAGA</title>
+    <link rel="stylesheet" href="/css/registro.css">
+</head>
+<body>
+    <H1> Registrese en DAGA </H1>
+
+    <div class="container" >
+      <form action="registro" class="form">
+         <p class="form-titulo"> Registrate</p>
+
+         <div class="inputContainer">
+            <input type="text"  id="nombres" >
+            <label for="nombres"> Nombre: </label>
+            
+         </div>
+
+         <div class="inputContainer">
+            <input type="text"  id="apellidos">
+            <label for="apellido"> Apellido: </label>
+            
+         </div>
+
+         <div class="inputContainer">
+            <input type="tel"  id="telefono" >
+            <label for="telefono" > Telefono: </label>
+            
+         </div>
+
+         <div class="inputContainer">
+            <input type="email"  id="correo" >
+            <label for="correo"> Correo: </label>
+            
+         </div>
+
+         <div class="inputContainer" >
+            <input type="password" id="contraseña">
+            <label for="contrasena"> Contraseña: </label>
+            
+         </div>
+
+         <div class="inputContainer" >
+            <input type="password" id="repeatpass">
+            <label for="repeatpass"> Repetir contraseña: </label>
+            
+         </div>
+
+         <div class="form-termsAndConditions" >
+            <input type="checkbox" id="termsAndConditions" >
+            <label for="termsAndConditions"> He leido y acepto los</label>
+            <a href="#"> Términos y condiciones</a>
+         </div>
+         
+
+         <div class="form-boton" >
+            <input type="submit" value="Enviar" >
+         </div>
+      </form>
+
+    </div>
+    <script src="registro.php" ></script>
+</body>
+</html>
