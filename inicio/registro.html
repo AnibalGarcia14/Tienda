@@ -10,36 +10,36 @@
     <H1> Registrese en DAGA </H1>
 
     <div class="container" >
-      <form action="registro" class="form">
+      <form action="registro" class="form" id="formulario" >
          <p class="form-titulo"> Registrate</p>
 
          <div class="inputContainer">
-            <input type="text"  id="nombres" >
+            <input type="text"  id="nombre" name="nombre">
             <label for="nombres"> Nombre: </label>
             
          </div>
 
          <div class="inputContainer">
-            <input type="text"  id="apellidos">
+            <input type="text"  id="apellido" name="apellido" >
             <label for="apellido"> Apellido: </label>
             
          </div>
 
          <div class="inputContainer">
-            <input type="tel"  id="telefono" >
+            <input type="tel"  id="telefono" name="telefono" >
             <label for="telefono" > Telefono: </label>
             
          </div>
 
          <div class="inputContainer">
-            <input type="email"  id="correo" >
+            <input type="email"  id="correo" name="correo" >
             <label for="correo"> Correo: </label>
             
          </div>
 
          <div class="inputContainer" >
-            <input type="password" id="contraseña">
-            <label for="contrasena"> Contraseña: </label>
+            <input type="password" id="password" name="contraseña" >
+            <label for="password"> Contraseña: </label>
             
          </div>
 
@@ -62,6 +62,6 @@
       </form>
 
     </div>
-    <script src="registro.php" ></script>
+    <script src="/jscrip/registro.js" ></script>
 </body>
 </html>
